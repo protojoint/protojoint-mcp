@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "protojoint": {
+      "type": "http",
+      "url": "https://protojoint.ai/mcp"
+    }
+  }
+}

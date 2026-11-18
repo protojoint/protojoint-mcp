@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.protojoint/protojoint",
+  "title": "ProtoJoint",
+  "description": "Browser CAD for AI: model parts and joints, check motion, export STEP, STL or robot files",
+  "websiteUrl": "https://protojoint.ai/docs/ai/",
+  "repository": {
+    "url": "https://github.com/protojoint/protojoint-mcp",
+    "source": "github"
+  },
+  "version": "0.1.17",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://protojoint.ai/mcp"
+    }
+  ]
+}
