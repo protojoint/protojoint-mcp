@@ -6,7 +6,8 @@
   "websiteUrl": "https://protojoint.ai/docs/ai/",
   "repository": {
     "url": "https://github.com/protojoint/protojoint-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1462900791"
   },
   "version": "0.1.17",
   "remotes": [
