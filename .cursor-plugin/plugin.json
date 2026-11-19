@@ -1,7 +1,7 @@
 {
   "name": "protojoint",
   "displayName": "ProtoJoint",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Model parts, assemblies and joints in the ProtoJoint CAD open in your browser; export robots as URDF, MJCF, SDF and a ROS 2 package.",
   "author": {
     "name": "ProtoJoint AI",

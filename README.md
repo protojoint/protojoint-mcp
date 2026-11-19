@@ -8,7 +8,7 @@ This repository holds only the description and configuration needed to connect a
 
 - MCP server: `https://protojoint.ai/mcp` (Streamable HTTP)
 - Sign-in: OAuth 2.1, found by the AI app from the server's 401 answer (dynamic client registration, PKCE S256); an API key for clients that take a header
-- Tools: 54, of which 12 only read ([docs/tools.md](docs/tools.md))
+- Tools: 56, of which 13 only read ([docs/tools.md](docs/tools.md))
 - Documentation: <https://protojoint.ai/docs/ai/>
 
 ## Before an AI app can do anything: five steps

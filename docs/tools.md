@@ -1,6 +1,6 @@
 # Tools
 
-54 tools, 12 of them read-only (they change nothing). Two are marked destructive: `new_document` and `delete_feature`. `delete_part` and `delete_joint` remove things too but are not marked destructive; every edit is one undo step in your ProtoJoint tab. The server lists its current tools to your AI app when it connects; this page is a copy of that list.
+56 tools, 13 of them read-only (they change nothing). Four are marked destructive: `new_document`, `delete_feature`, `delete_joint` and `delete_part`. Every edit is one undo step in your ProtoJoint tab. The server lists its current tools to your AI app when it connects; this page is a copy of that list.
 
 ## Read the design
 
@@ -15,6 +15,7 @@
 | `mass_properties` | Mass, volume and centre of mass | yes |  |
 | `check_interference` | Check for clashes | yes |  |
 | `check_motion` | Check a motion | yes |  |
+| `check_enclosed` | Check what is enclosed | yes |  |
 | `screenshot` | Look at the model | yes |  |
 | `list_templates` | List the templates | yes |  |
 | `load_skill` | Load a skill | yes |  |
@@ -48,6 +49,7 @@
 | `combine` | Combine bodies |  |  |
 | `set_body` | Name, colour or hide a body |  |  |
 | `move_bodies` | Move bodies |  |  |
+| `edit_feature` | Change a feature |  |  |
 | `delete_feature` | Delete a feature |  | yes |
 | `undo` | Undo |  |  |
 | `redo` | Redo |  |  |
@@ -62,12 +64,12 @@
 | `insert_frame` | Build a T-slot frame |  |  |
 | `make_part` | Make a part |  |  |
 | `set_part` | Pin, place or give a material to a part |  |  |
-| `delete_part` | Delete a part |  |  |
+| `delete_part` | Delete a part |  | yes |
 | `add_joint` | Add a joint |  |  |
 | `edit_joint` | Edit a joint |  |  |
 | `set_joints` | Set joints |  |  |
 | `link_joints` | Link joints |  |  |
-| `delete_joint` | Delete a joint |  |  |
+| `delete_joint` | Delete a joint |  | yes |
 
 ## Laser and CNC
 
